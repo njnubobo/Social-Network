@@ -733,7 +733,7 @@ CHOOSER
 70
 network-type
 network-type
-"fully-connected" "random" "small-world" "BA-scale-free" "preferential-attachment" "evolutionary-network"
+"fully-connected" "random" "small-world" "BA-scale-free" "preferential-attachment"
 4
 
 SLIDER
@@ -769,9 +769,9 @@ NIL
 1
 
 MONITOR
-17
+18
 251
-205
+206
 312
 NIL
 average-path-length
@@ -829,7 +829,7 @@ alpha
 alpha
 0
 2
-2
+0.3
 0.1
 1
 NIL
@@ -1032,20 +1032,20 @@ to increase the clustering coefficient
 1
 
 TEXTBOX
-529
-567
-953
-601
+543
+547
+967
+581
 transitive linking:\n————————————————————————————
 15
 0.0
 1
 
 SLIDER
-531
-603
-772
-636
+543
+585
+784
+618
 removing-probability
 removing-probability
 0
@@ -1057,10 +1057,10 @@ NIL
 HORIZONTAL
 
 BUTTON
-779
-603
-976
-636
+791
+586
+988
+619
 transitive-linking
 transitive-linking
 T
@@ -1074,10 +1074,10 @@ NIL
 1
 
 BUTTON
-201
-705
-315
-738
+723
+667
+837
+700
 NIL
 evolution
 NIL
@@ -1091,19 +1091,29 @@ NIL
 1
 
 SLIDER
-11
-704
-183
-737
+546
+667
+718
+700
 defined-size
 defined-size
 0
 100
-4
+5
 1
 1
 NIL
 HORIZONTAL
+
+TEXTBOX
+544
+631
+973
+659
+evolution:\n————————————————————————————
+15
+0.0
+1
 
 @#$#@#$#@
 ## WHAT IS IT?
